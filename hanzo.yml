@@ -1,0 +1,4 @@
+# passport-google-oauth2 — the strategy's own mocha suite is the gate.
+test:
+  - name: mocha
+    run: npm i --no-audit --no-fund && npm test
